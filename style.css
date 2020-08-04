@@ -5,24 +5,6 @@
         box-sizing: border-box;
     }
 
-    div.medium {
-        z-index: 3;
-        position: absolute;
-        top: 0px;
-        left: 0px;
-    }
-    div.large {
-        z-index: 2;
-        position: absolute;
-        top: 0px;
-        left: 0px;
-    }
-    div small {
-        z-index: 1;
-        position: absolute;
-        top: 0px;
-        left: 0px;
-    }
 }
 @media screen and (min-width: 301px) and (max-width: 767px) {
     body {
