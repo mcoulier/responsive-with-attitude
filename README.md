@@ -1,2 +1,1 @@
-# responsive-with-attitude
-Making RWA content
+https://mcoulier.github.io/responsive-with-attitude/
