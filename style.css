@@ -3,6 +3,7 @@
         background-color: red;
         font-size: 15px;
         box-sizing: border-box;
+        position: absolute;
     }
 
 }
@@ -18,44 +19,57 @@
         float:left;
         display:inline;
         width: 66%;
-        margin: 15px;
+        margin: 10px;
+        border-style: solid;
+        padding: 10px;
     }
     div.medium {
         float:left;
         display:inline;
         width: 33%;
-        margin: 15px;
+        margin: 10px;
+        border-style: solid;
+        padding: 10px;
     }
     div.large {
         float:bottom;
         display:inline-grid;
         width: 100%;
-        margin: 15px;
+        margin: 10px;
+        border-style: solid;
+        padding: 10px;
     }
 }
 @media screen and (min-width: 768px) {
     body {
         background-color: blue;
-        font-size: 35px;
+        font-size: 30px;
         box-sizing: border-box;
+        position: absolute;
     }
     div.small {
         float:left;
         display:inline;
-        width: 30%;
-        margin: 15px;
+        width: 25%;
+        margin: 10px;
+        border-style: solid;
+        padding: 10px;
     }
     div.medium {
         float:left;
         display:inline;
-        width: 30%;
-        margin: 15px;
+        width: 25%;
+        margin: 10px;
+        border-style: solid;
+        padding: 10px;
     }
     div.large {
         float:left;
         display:inline;
-        width: 30%;
-        margin: 15px;
+        width: 25%;
+        margin: 10px;
+        border-style: solid;
+        padding: 10px;
     }
 }
 
