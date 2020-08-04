@@ -1,12 +1,27 @@
 @media screen and (min-width: 0px) and (max-width: 300px) {
     body { background-color: red; }
+    div.medium {
+        display: none
+    }
+    div.large {
+        display: none
+    }
 }
 @media screen and (min-width: 301px) and (max-width: 767px) {
     body { background-color: green; }
+    div.small {
+        display: none
+    }
+    div.large {
+        display: none
+    }
 }
 @media screen and (min-width: 768px) {
     body { background-color: blue; }
     div.small {
         display: none;
-}
+    }
+    div.medium {
+        display: none;
+    }
 }
